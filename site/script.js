@@ -1,4 +1,7 @@
-console.log('Feito por: Natan Benfica, Evaí Santos e Charlotte Meyer.')
+console.log('Feito por: Charlotte Meyer; Evaí Santos; Natan Benfica.')
+console.log('Labenu, turma Lovelace, julho de 2021.')
+
+
 
 
 
