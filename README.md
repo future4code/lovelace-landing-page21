@@ -1,6 +1,10 @@
 # Landing Page: Empresa Log4
 
-Grupo: Charlotte Meyer; Evaí Santos; Natan Benfica.
+Grupo: 
+
+* Charlotte Meyer; 
+* Evaí Santos; 
+* Natan Benfica.
 
 Link do surge inicial: https://full-belief.surge.sh/
 
