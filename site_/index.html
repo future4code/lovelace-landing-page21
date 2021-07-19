@@ -1,0 +1,248 @@
+<!DOCTYPE html> <!-- comando [ctrl ;] abre um comentario -->
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- arquivos meta, responsáveis por definir características estruturais e configurações de marcação do HTML, como escala, zoom, compatibilidade e padrões de caracteres, por exemplo, além de outras características mais avançadas -->
+
+    <title> Log4 </title>
+    <!-- título de página web, aparece na aba do navegador -->
+
+    <script src="script.js"></script>
+    <!-- script para receber as interações de Javgiascript -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            jQuery("#subirTopo").hide();
+
+            jQuery('a#subirTopo').click(function () {
+                jQuery('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 1000) {
+                    jQuery('#subirTopo').fadeIn();
+                } else {
+                    jQuery('#subirTopo').fadeOut();
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <!-- link para receber as estilizações de CSS -->
+
+    <!--Botão subir ao topo-->
+    <a id="subirTopo">
+        ^ <br> subir
+    </a>
+
+</head>
+
+<body>
+    <!-- é aqui que é feito o site (visão do Usuário)-->
+
+    <header>
+
+        <div class="card-principal">
+            <img src="img/log4-quadrado-icone.jpg" alt="Logomarca Log4" width="50px" class="card-principal-imagens">
+            <div>
+                <a href="#quem-somos"> Quem Somos </a>
+            </div>
+
+            <div>
+                <a href="#nossos-servicos"> Nossos Serviços </a>
+            </div>
+
+            <div>
+                <a href="#clientes"> Clientes </a>
+            </div>
+
+            <div>
+                <a href="#contato"> Contato </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <!--SLIDE-->
+
+        <div class="slideshow">
+
+            <img src="/img/log4.png" class="logo-slideshow foto-slideshow">
+
+            <img src="img/fotos/index/16.png" class="foto-slideshow">
+
+            <img src="img/fotos/index/04.png" class="foto-slideshow">
+
+            <img src="img/fotos/index/09.png" class="foto-slideshow">
+
+            <img src="img/fotos/index/17.png" class="foto-slideshow">
+
+            <img src=/img/fotos/index/21.png" class="foto-slideshow">
+
+        </div>
+
+        <h1 class="textoInicial">Sua mercadoria transportada para qualquer lugar do Brasil.<br>Veja como funciona:</h1>
+        <p class="centralizar-elementos"><img src="/img/fotos/index/trabalho-01-01.png" width="100%"></p>
+
+        <section id="quem-somos">
+            <div class="card2">
+                <h1 class="textoTituloRosa"> Quem Somos </h1>
+                <br>
+                <div>
+                    A <b>Log4</b> nasceu com a visão de oferecer soluções simples e eficazes na gestão de entregas
+                    rapidas, associadas a um profundo relacionamento com o cliente, perpassando todo o processo, desde o
+                    fluxo da informação, até a finalização do serviço, resultando na otimização do tempo de entrega.
+                    <br>
+
+                    <br>
+
+                    <b>Missão:</b> Oferecer entregas adequadas e de indiscutível qualidade, promovendo os conceitos de
+                    inovação, flexibilidade e responsabilidade.<br>
+
+                    <br>
+
+                    <b>Visão:</b> acreditamos no crescimento em harmonia com o meio ambiente,
+                    respeitando as pessoas e a sociedade. <br>
+
+                    <br>
+
+                    <b>Valores:</b> Diversidade, transparência, Ética e Inovação.
+                </div><br>
+                <p class="centralizar-elementos"><img src="/img/fotos/historia/08.png" width="1000px"></p>
+            </div>
+        </section>
+
+        <section id="nossos-servicos">
+
+            <div class="card3">
+                <h1 class="textoTituloBranco"> Nossos Serviços </h1>
+                <br>
+
+                <li> Distribuição rápida de itens pequenos via motoboys e ciclistas;</li>
+
+                <li> Distribuição de móveis ou itens de grande tamanho;</li>
+
+                <li> Distribuição de medicamentos; </li>
+
+                <br>
+
+                <p class="centralizar-elementos"><img src="/img/fotos/servicos/14.png" width="1000px"></p>
+            </div>
+
+        </section>
+
+        <section id="clientes">
+
+            <div class="card4">
+
+                <br><br>
+
+                <h1 class="centralizar-elementos textoTituloRosa"> Clientes: </h1>
+
+                <br><br>
+
+                <div class="logos-empresas">
+
+                    <a href="https://www.carrefour.com.br/" target="_blank"><img id="tamanho-logo"
+                            src="/img/carrefour.png" alt="carrefour"></a>
+
+                    <a href="https://www.drogariasaopaulo.com.br/" target="_blank"><img id="tamanho-logo"
+                            src="/img/Drogaria.png" alt="Drogaria sp"></a>
+
+                    <a href="https://www.grupofleury.com.br/SitePages/Home.aspx" target="_blank"><img id="tamanho-logo"
+                            src="/img/fleury.png" alt="laboratorio fleury"></a>
+
+                    <a href="https://www.mobly.com.br/" target="_blank"><img id="tamanho-logo" src="/img/mobly.png"
+                            alt="mobly"></a>
+
+                    <a href="https://www.samsclub.com.br/" target="_blank"><img id="tamanho-logo"
+                            src="/img/sams-club-2.png" alt="sam's club"></a>
+
+                    <a href="https://www.tokstok.com.br/" target="_blank"><img id="tamanho-logo" src="/img/tok-stok.png"
+                            alt="tokstok"></a>
+
+                </div>
+
+                <br>
+
+
+            </div>
+
+        </section>
+
+        <section id="contato">
+
+            <div class="card5">
+
+                <div class="centralizar-elementos">
+                    <h1 class="textoTituloRosa">
+                        Contato:
+                    </h1>
+                </div>
+
+                <br><br>
+
+                <div class="centralizar-elementos">
+                    Ficou com alguma dúvida? Deixe um recado abaixo:
+                </div>
+
+                <br>
+
+                <form>
+                    <label for="text"> Seu nome: </label>
+                    <input type="text" name="nome">
+                    <br>
+                    <label for="e-mail"> Seu e-mail: </label>
+                    <input type="e-mail" name="e-mail">
+                    <br>
+                    <label for="text"> Recado: </label>
+                    <input type="text" name="recado">
+                    <a id="posicao-botao"> <button id="botao-enviar"> <b> Enviar </b> </button> </a>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="centralizar-elementos">
+        <div class="card6">
+            <h2>
+                <b> Nossas redes sociais: </b>
+            </h2>
+
+            <br>
+
+            <div class="centralizar-elementos">
+
+                <a href="https://www.linkedin.com" target="blank_"><img src="img/icons/linkedin.png" id="icones"></a>
+
+                <a href="https://www.instagram.com" target="blank_"><img src="img/icons/instagram.png" id="icones"></a>
+
+                <a href="https://facebook.com" target="blank_"><img src="img/icons/facebook.png" id="icones"></a>
+
+                <a href="https://www.twitter.com" target="blank_"><img src="img/icons/twitter.png" id="icones"></a>
+
+                <a href="https://www.whatsapp.com" target="blank_"><img src="img/icons/whatsapp.png" id="icones"></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
